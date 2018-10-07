@@ -10,7 +10,7 @@ rankdir=BT;
 8 [label="Preorder" href="https://en.wikipedia.org/wiki/Preorder"]
 9 [label="Equivalence relation" href="https://en.wikipedia.org/wiki/Equivalence_relation"]
 
-11 [label="Connex relation" href="https://en.wikipedia.org/wiki/Connex_relation" fillcolor=lightblue style=filled]
+11 [label="Connex relation" href="https://en.wikipedia.org/wiki/Connex_relation"]
 12 [label="Antisymmetric relation" href="https://en.wikipedia.org/wiki/Antisymmetric_relation" fillcolor=lightblue style=filled]
 13 [label="Transitive relation" href="https://en.wikipedia.org/wiki/Transitive_relation" fillcolor=lightblue style=filled]
 14 [label="Reflexive relation" href="https://en.wikipedia.org/wiki/Reflexive_relation" fillcolor=lightblue style=filled]
@@ -33,12 +33,13 @@ rankdir=BT;
 [label="" href=""]
 */
 {1,5,24}->0
-{11,12,13,14,16,18}->1
+{12,13,14,16,18}->1
 6->{7,11}
 7->{8,12}
 9->{8,19,23}
 8->{13,14}
 15->{12,18}
+11->14
 19->{13,16}
 20->6
 21->{13,15}
